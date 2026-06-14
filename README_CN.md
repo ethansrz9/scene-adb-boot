@@ -1,4 +1,4 @@
-[English](https://github.com/ethansrz9/scene-adb-boot#readme) | [中文](https://github.com/ethansrz9/scene-adb-boot/blob/main/README_CN.md)
+[English](https://github.com/ethansrz9/scene-adb-boot#english) | [中文](https://github.com/ethansrz9/scene-adb-boot#chinese)
 
 # Scene ADB Boot Activator
 
