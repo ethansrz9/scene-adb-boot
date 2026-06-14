@@ -7,9 +7,11 @@
 
 Scene ADB Boot Activator is an Android root module package for restoring an ADB-related startup workflow after boot.
 
-Maintainer: 長島不加冰.
+Maintainer: [長島不加冰.](https://github.com/ethansrz9)
 
-This repository is a public release and showcase repository. It is intended to provide project information, public downloads, release notes, checksums, and contact guidance. The private development source tree, complete build chain, internal scripts, device-specific notes, and adaptation details are not published here.
+Project page: <https://github.com/ethansrz9/scene-adb-boot>
+
+This repository distributes public releases and project information only. The private development source tree, complete build chain, internal scripts, device-specific notes, and adaptation details are not published here.
 
 ## Features
 
