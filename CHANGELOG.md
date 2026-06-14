@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.9
+
+- Added public project and support links to module metadata.
+- Kept maintainer metadata as 長島不加冰.
+
 ## v1.8
 
 - Published a refreshed public package artifact.
