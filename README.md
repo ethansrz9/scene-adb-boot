@@ -1,3 +1,5 @@
+English | [中文](README_CN.md)
+
 # Scene ADB Boot Activator
 
 ![Android](https://img.shields.io/badge/Android-rooted-3DDC84)
