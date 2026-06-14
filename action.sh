@@ -1,0 +1,2 @@
+#!/system/bin/sh
+L=/data/local/tmp/scene-adb-boot.log;D=${0%/*};O=/data/local/tmp/scene-adb-action.out;echo "Scene ADB manual trigger";echo "Log: $L";[ -f "$L" ]&&[ "$(wc -c <"$L" 2>/dev/null)" -gt 65536 ]&&mv "$L" "$L.old";rm -f "$O";sh "$D/activate.sh" manual-no-start>"$O" 2>&1;s=$?;cat "$O";cat "$O">>"$L";rm -f "$O";if [ "$s" -eq 0 ];then echo "Done.";input keyevent KEYCODE_BACK >/dev/null 2>&1;sleep 1;am start -n com.omarea.vtools/.activities.ActivityStartSplash -f 0x10008000 >/dev/null 2>&1;else echo "Failed. Check $L";fi;exit "$s"

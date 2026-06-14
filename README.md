@@ -2,6 +2,7 @@
 
 ![Android](https://img.shields.io/badge/Android-rooted-3DDC84)
 ![KernelSU/APatch](https://img.shields.io/badge/KernelSU%20%2F%20APatch-module-555555)
+![Shell](https://img.shields.io/badge/Shell-script-89E051)
 ![Public Release](https://img.shields.io/badge/Public%20Release-package-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -11,11 +12,12 @@ Maintainer: [長島不加冰.](https://github.com/ethansrz9)
 
 Project page: <https://github.com/ethansrz9/scene-adb-boot>
 
-This repository distributes public releases and project information for the Scene ADB Boot Activator package.
+This repository contains the public Shell module package and release artifacts for Scene ADB Boot Activator.
 
 ## Features
 
 - Provides a packaged boot-time helper for supported rooted Android environments.
+- Includes the public Shell scripts used by the module package.
 - Supports public release distribution through GitHub Releases.
 - Keeps device-specific configuration outside the repository.
 - Documents release usage for public distribution.
