@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.8
+
+- Published a refreshed public package artifact.
+- Updated module author metadata to 長島不加冰.
+- Reduced readability of packaged helper scripts for public distribution.
+- Removed the previous public release artifact from GitHub Releases.
+
 ## v1.7
 
 - Published a public release-oriented repository layout.
