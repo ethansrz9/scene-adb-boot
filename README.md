@@ -1,6 +1,5 @@
-<p align="right">
-  <a href="README.md"><img src="https://img.shields.io/badge/lang-en-blue?style=flat-square" alt="English" /></a>
-  <a href="README_CN.md"><img src="https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87-red?style=flat-square" alt="中文" /></a>
+English | [中文](README_CN.md)
+
 </p>
 
 # Scene ADB Boot Activator
