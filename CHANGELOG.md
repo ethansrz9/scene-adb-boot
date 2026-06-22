@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.1
+
+- Fixed the invalid `&;` command separator in `scene-up.sh` that caused Android shell to exit with `syntax error: unexpected ';'`.
+- Kept all other v2.0 activation behavior unchanged.
+
 ## v2.0
 
 - Added `updateJson` metadata so compatible KernelSU/SukiSU module managers can discover future releases.
