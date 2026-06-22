@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.2
+
+- Removed unsupported `project` and `support` fields from `module.prop`.
+- Removed the repository URL from the visible module description.
+- Kept `updateJson`, the update field consumed by SukiSU Ultra and KernelSU.
+- Made no runtime script or activation behavior changes.
+
 ## v2.1
 
 - Fixed the invalid `&;` command separator in `scene-up.sh` that caused Android shell to exit with `syntax error: unexpected ';'`.

@@ -1,4 +1,5 @@
-# Scene ADB Boot Activator v2.1
+# Scene ADB Boot Activator v2.2
 
-- Fixed an Android shell syntax error in `scene-up.sh` that prevented both manual and boot activation in v2.0.
-- No activation behavior or permission logic was otherwise changed.
+- Removed unsupported `project` and `support` metadata from the installed module.
+- Removed the repository URL from the module description.
+- No runtime scripts or activation behavior were changed.

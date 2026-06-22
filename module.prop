@@ -1,9 +1,7 @@
 id=scene-adb-boot
 name=Scene ADB Boot Activator
-version=2.1
-versionCode=12
+version=2.2
+versionCode=13
 author=長島不加冰.
-description=Restores the Scene ADB startup workflow after boot or from the manual action button. Project: https://github.com/ethansrz9/scene-adb-boot
+description=Restores the Scene ADB startup workflow after boot or from the manual action button.
 updateJson=https://raw.githubusercontent.com/ethansrz9/scene-adb-boot/main/update.json
-project=https://github.com/ethansrz9/scene-adb-boot
-support=https://github.com/ethansrz9/scene-adb-boot/issues
