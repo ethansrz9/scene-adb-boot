@@ -21,6 +21,7 @@ This repository contains the public Shell module package and release artifacts f
 - Provides a packaged boot-time helper for supported rooted Android environments.
 - Includes the public Shell scripts used by the module package.
 - Supports public release distribution through GitHub Releases.
+- Supports module-manager update checks through `updateJson`.
 - Keeps device-specific configuration outside the repository.
 - Documents release usage for public distribution.
 
@@ -44,14 +45,17 @@ Checksums for public release artifacts are listed in `SHA256SUMS.txt` when avail
 1. Download the latest package from GitHub Releases.
 2. Install it with your root module manager.
 3. Reboot the device.
-4. Confirm the target workflow is available after boot.
-5. Use the module manager to disable or remove the package if needed.
+4. After boot, the module activates `scene-daemon` without opening Scene.
+5. Use the module action button to activate manually; after completion it closes the action page and opens Scene.
+6. Use the module manager to disable or remove the package if needed.
 
 ## Notes
 
 - This is a release-oriented public repository.
 - Device-specific private configuration is not included.
 - Public packages are distributed through GitHub Releases.
+- Version 2.0 and later expose an update manifest to compatible KernelSU/SukiSU module managers.
+- The module itself does not depend on Sui at runtime.
 
 ## License
 

@@ -1,5 +1,16 @@
 # Changelog
 
+## v2.0
+
+- Added `updateJson` metadata so compatible KernelSU/SukiSU module managers can discover future releases.
+- Added a formal GitHub Release ZIP URL and a concise update changelog endpoint.
+- Preserved the v1.9 runtime script contents and their device-verified behavior unchanged.
+- Restored executable permissions for module shell scripts in the release package.
+- Boot activation continues to start `scene-daemon` without opening Scene.
+- Manual activation continues to close the module action page after completion and then open Scene.
+- `scene-daemon` continues to run as Android shell UID 2000 to preserve ADB-mode behavior.
+- The module continues to have no runtime dependency on Sui.
+
 ## v1.9
 
 - Added public project and support links to `module.prop` so users can locate the source repository and issue tracker from module metadata.

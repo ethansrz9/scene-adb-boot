@@ -21,6 +21,7 @@ Scene ADB Boot Activator 是一个 Android Root 模块包，用于在开机后�
 - 为支持的 Root Android 环境提供开机自启辅助工具。
 - 包含模块包使用的公开 Shell 脚本。
 - 支持通过 GitHub Releases 进行公开发布分发。
+- 支持通过 `updateJson` 让模块管理器检查更新。
 - 设备特定配置不保留在仓库中。
 - 记录公开发布的使用方式。
 
@@ -44,14 +45,17 @@ Scene ADB Boot Activator 是一个 Android Root 模块包，用于在开机后�
 1. 从 GitHub Releases 下载最新模块包。
 2. 通过 Root 模块管理器安装。
 3. 重启设备。
-4. 确认开机后目标工作流可用。
-5. 如需禁用或移除，使用模块管理器操作即可。
+4. 开机后模块只激活 `scene-daemon`，不会自动打开 Scene。
+5. 如需手动激活，点击模块操作按钮；完成后会关闭执行页并打开 Scene。
+6. 如需禁用或移除，使用模块管理器操作即可。
 
 ## 说明
 
 - 本仓库为面向发布的公开仓库。
 - 不包含设备特定的私有配置。
 - 公开模块包通过 GitHub Releases 分发。
+- 2.0 及后续版本通过更新清单向兼容的 KernelSU/SukiSU 模块管理器提供更新检查。
+- 模块运行时不依赖 Sui。
 
 ## 许可证
 
